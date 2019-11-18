@@ -154,17 +154,17 @@ class CoursesViewController: UIViewController {
             var totalCredits = 0.0
             var totalGPA = 0.0
             //let total = arrayCourse.reduce(0, +Course)
-            totalGPA = Double((arrayCourse.count * 20/20))
-            for i in 0..<arrayCourse.count {
-                totalCredits = arrayCourse[i].credit
-                totalGPA += arrayCourse[i].gpa
-                for i in 0...4 {
-                    totalCredits = totalCredits + totalCredits
-                    
-                }
-            }
             
-            let finalGPA = totalGPA / totalCredits
+            for i in arrayCourse {
+                totalCredits += i.credit
+                totalGPA += i.gpa
+               totalGPA = Double((arrayCourse.count * 20/20))
+                
+                }
+                
+            
+            
+            let finalGPA = totalGPA ///  totalCredits
             
             if finalGPA > 2.8 {
                 self.playAudio()

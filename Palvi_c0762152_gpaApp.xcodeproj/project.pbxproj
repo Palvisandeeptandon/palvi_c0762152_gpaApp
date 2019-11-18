@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841F77E82380FF920057CFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F77E72380FF920057CFD2 /* AppDelegate.swift */; };
+		841F77EF2380FF920057CFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F77ED2380FF920057CFD2 /* Main.storyboard */; };
+		841F77F12380FF940057CFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841F77F02380FF940057CFD2 /* Assets.xcassets */; };
+		841F77F42380FF940057CFD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F77F22380FF940057CFD2 /* LaunchScreen.storyboard */; };
+		841F77FF2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F77FE2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.swift */; };
+		841F780A2380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F78092380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.swift */; };
+		841F78182381057E0057CFD2 /* StudentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F78172381057E0057CFD2 /* StudentsListViewController.swift */; };
+		843644E22381863D00BF1114 /* Win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 843644E12381863D00BF1114 /* Win.wav */; };
+		845DA1172381062A00A98BB5 /* SaveStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DA1162381062A00A98BB5 /* SaveStudentViewController.swift */; };
+		84995BAE238133E70023585F /* SemesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84995BAD238133E70023585F /* SemesterViewController.swift */; };
+		84995BB02381439D0023585F /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84995BAF2381439D0023585F /* CoursesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841F77FB2380FF940057CFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841F77DC2380FF920057CFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841F77E32380FF920057CFD2;
+			remoteInfo = Palvi_c0762152_gpaApp;
+		};
+		841F78062380FF940057CFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841F77DC2380FF920057CFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841F77E32380FF920057CFD2;
+			remoteInfo = Palvi_c0762152_gpaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841F77E42380FF920057CFD2 /* Palvi_c0762152_gpaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palvi_c0762152_gpaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F77E72380FF920057CFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841F77EE2380FF920057CFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841F77F02380FF940057CFD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841F77F32380FF940057CFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841F77F52380FF940057CFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841F77FA2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Palvi_c0762152_gpaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F77FE2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palvi_c0762152_gpaAppTests.swift; sourceTree = "<group>"; };
+		841F78002380FF940057CFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841F78052380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Palvi_c0762152_gpaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F78092380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palvi_c0762152_gpaAppUITests.swift; sourceTree = "<group>"; };
+		841F780B2380FF940057CFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841F78172381057E0057CFD2 /* StudentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsListViewController.swift; sourceTree = "<group>"; };
+		843644E12381863D00BF1114 /* Win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Win.wav; sourceTree = "<group>"; };
+		845DA1162381062A00A98BB5 /* SaveStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveStudentViewController.swift; sourceTree = "<group>"; };
+		84995BAD238133E70023585F /* SemesterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterViewController.swift; sourceTree = "<group>"; };
+		84995BAF2381439D0023585F /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841F77E12380FF920057CFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F77F72380FF940057CFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F78022380FF940057CFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841F77DB2380FF920057CFD2 = {
+			isa = PBXGroup;
+			children = (
+				841F77E62380FF920057CFD2 /* Palvi_c0762152_gpaApp */,
+				841F77FD2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests */,
+				841F78082380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests */,
+				841F77E52380FF920057CFD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841F77E52380FF920057CFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841F77E42380FF920057CFD2 /* Palvi_c0762152_gpaApp.app */,
+				841F77FA2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.xctest */,
+				841F78052380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841F77E62380FF920057CFD2 /* Palvi_c0762152_gpaApp */ = {
+			isa = PBXGroup;
+			children = (
+				841F77E72380FF920057CFD2 /* AppDelegate.swift */,
+				841F78172381057E0057CFD2 /* StudentsListViewController.swift */,
+				845DA1162381062A00A98BB5 /* SaveStudentViewController.swift */,
+				84995BAD238133E70023585F /* SemesterViewController.swift */,
+				84995BAF2381439D0023585F /* CoursesViewController.swift */,
+				841F77ED2380FF920057CFD2 /* Main.storyboard */,
+				841F77F02380FF940057CFD2 /* Assets.xcassets */,
+				841F77F22380FF940057CFD2 /* LaunchScreen.storyboard */,
+				841F77F52380FF940057CFD2 /* Info.plist */,
+				843644E12381863D00BF1114 /* Win.wav */,
+			);
+			path = Palvi_c0762152_gpaApp;
+			sourceTree = "<group>";
+		};
+		841F77FD2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				841F77FE2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.swift */,
+				841F78002380FF940057CFD2 /* Info.plist */,
+			);
+			path = Palvi_c0762152_gpaAppTests;
+			sourceTree = "<group>";
+		};
+		841F78082380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841F78092380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.swift */,
+				841F780B2380FF940057CFD2 /* Info.plist */,
+			);
+			path = Palvi_c0762152_gpaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841F77E32380FF920057CFD2 /* Palvi_c0762152_gpaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F780E2380FF940057CFD2 /* Build configuration list for PBXNativeTarget "Palvi_c0762152_gpaApp" */;
+			buildPhases = (
+				841F77E02380FF920057CFD2 /* Sources */,
+				841F77E12380FF920057CFD2 /* Frameworks */,
+				841F77E22380FF920057CFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palvi_c0762152_gpaApp;
+			productName = Palvi_c0762152_gpaApp;
+			productReference = 841F77E42380FF920057CFD2 /* Palvi_c0762152_gpaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841F77F92380FF940057CFD2 /* Palvi_c0762152_gpaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F78112380FF940057CFD2 /* Build configuration list for PBXNativeTarget "Palvi_c0762152_gpaAppTests" */;
+			buildPhases = (
+				841F77F62380FF940057CFD2 /* Sources */,
+				841F77F72380FF940057CFD2 /* Frameworks */,
+				841F77F82380FF940057CFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841F77FC2380FF940057CFD2 /* PBXTargetDependency */,
+			);
+			name = Palvi_c0762152_gpaAppTests;
+			productName = Palvi_c0762152_gpaAppTests;
+			productReference = 841F77FA2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841F78042380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F78142380FF940057CFD2 /* Build configuration list for PBXNativeTarget "Palvi_c0762152_gpaAppUITests" */;
+			buildPhases = (
+				841F78012380FF940057CFD2 /* Sources */,
+				841F78022380FF940057CFD2 /* Frameworks */,
+				841F78032380FF940057CFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841F78072380FF940057CFD2 /* PBXTargetDependency */,
+			);
+			name = Palvi_c0762152_gpaAppUITests;
+			productName = Palvi_c0762152_gpaAppUITests;
+			productReference = 841F78052380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841F77DC2380FF920057CFD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Palvi;
+				TargetAttributes = {
+					841F77E32380FF920057CFD2 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					841F77F92380FF940057CFD2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 841F77E32380FF920057CFD2;
+					};
+					841F78042380FF940057CFD2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 841F77E32380FF920057CFD2;
+					};
+				};
+			};
+			buildConfigurationList = 841F77DF2380FF920057CFD2 /* Build configuration list for PBXProject "Palvi_c0762152_gpaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841F77DB2380FF920057CFD2;
+			productRefGroup = 841F77E52380FF920057CFD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841F77E32380FF920057CFD2 /* Palvi_c0762152_gpaApp */,
+				841F77F92380FF940057CFD2 /* Palvi_c0762152_gpaAppTests */,
+				841F78042380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841F77E22380FF920057CFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F77F42380FF940057CFD2 /* LaunchScreen.storyboard in Resources */,
+				843644E22381863D00BF1114 /* Win.wav in Resources */,
+				841F77F12380FF940057CFD2 /* Assets.xcassets in Resources */,
+				841F77EF2380FF920057CFD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F77F82380FF940057CFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F78032380FF940057CFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841F77E02380FF920057CFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DA1172381062A00A98BB5 /* SaveStudentViewController.swift in Sources */,
+				841F78182381057E0057CFD2 /* StudentsListViewController.swift in Sources */,
+				84995BAE238133E70023585F /* SemesterViewController.swift in Sources */,
+				841F77E82380FF920057CFD2 /* AppDelegate.swift in Sources */,
+				84995BB02381439D0023585F /* CoursesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F77F62380FF940057CFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F77FF2380FF940057CFD2 /* Palvi_c0762152_gpaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F78012380FF940057CFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F780A2380FF940057CFD2 /* Palvi_c0762152_gpaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841F77FC2380FF940057CFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841F77E32380FF920057CFD2 /* Palvi_c0762152_gpaApp */;
+			targetProxy = 841F77FB2380FF940057CFD2 /* PBXContainerItemProxy */;
+		};
+		841F78072380FF940057CFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841F77E32380FF920057CFD2 /* Palvi_c0762152_gpaApp */;
+			targetProxy = 841F78062380FF940057CFD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841F77ED2380FF920057CFD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841F77EE2380FF920057CFD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841F77F22380FF940057CFD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841F77F32380FF940057CFD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841F780C2380FF940057CFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		841F780D2380FF940057CFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841F780F2380FF940057CFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palvi_c0762152_gpaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palvi.Palvi-c0762152-gpaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		841F78102380FF940057CFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palvi_c0762152_gpaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palvi.Palvi-c0762152-gpaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		841F78122380FF940057CFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palvi_c0762152_gpaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palvi.Palvi-c0762152-gpaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palvi_c0762152_gpaApp.app/Palvi_c0762152_gpaApp";
+			};
+			name = Debug;
+		};
+		841F78132380FF940057CFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palvi_c0762152_gpaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palvi.Palvi-c0762152-gpaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palvi_c0762152_gpaApp.app/Palvi_c0762152_gpaApp";
+			};
+			name = Release;
+		};
+		841F78152380FF940057CFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palvi_c0762152_gpaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palvi.Palvi-c0762152-gpaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Palvi_c0762152_gpaApp;
+			};
+			name = Debug;
+		};
+		841F78162380FF940057CFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palvi_c0762152_gpaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.palvi.Palvi-c0762152-gpaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Palvi_c0762152_gpaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841F77DF2380FF920057CFD2 /* Build configuration list for PBXProject "Palvi_c0762152_gpaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F780C2380FF940057CFD2 /* Debug */,
+				841F780D2380FF940057CFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F780E2380FF940057CFD2 /* Build configuration list for PBXNativeTarget "Palvi_c0762152_gpaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F780F2380FF940057CFD2 /* Debug */,
+				841F78102380FF940057CFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F78112380FF940057CFD2 /* Build configuration list for PBXNativeTarget "Palvi_c0762152_gpaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F78122380FF940057CFD2 /* Debug */,
+				841F78132380FF940057CFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F78142380FF940057CFD2 /* Build configuration list for PBXNativeTarget "Palvi_c0762152_gpaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F78152380FF940057CFD2 /* Debug */,
+				841F78162380FF940057CFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841F77DC2380FF920057CFD2 /* Project object */;
+}
